@@ -64,6 +64,8 @@ this.anims.create({
     frameRate: 10,
     repeat: -1
 });
+player.body.setGravityY(300)
+this.physics.add.collider(player, platforms);
 }
 
 function update ()
